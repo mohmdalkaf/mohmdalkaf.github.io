@@ -185,15 +185,15 @@
     margin-left: 10%;
     top: 2140px; }
   .info .contactinfo {
-    margin-top: 900px;
-    transform: translate(-50% -50%); }
+    transform: translate(-50% -50%);
+    position: absolute;
+    bottom: 100px;
+    left: 10%; }
     .info .contactinfo h2 {
       color: #EEEEEE;
-      display: flex;
-      margin-left: 10%; }
+      display: flex; }
       .info .contactinfo h2 .item {
         margin-left: 30px;
-        margin-top: 0px;
         color: #ce834a; }
 
 @media screen and (max-width: 1100px) {
@@ -220,6 +220,12 @@
       border-radius: 50%;
       border: #ce834a solid 20px;
       transition: 1s; } }
+@media screen and (min-width: 1001px) {
+  .text:hover {
+    transform: translateY(-10px); }
+
+  .image:hover {
+    transform: translateY(-10px); } }
 @media screen and (max-width: 1000px) {
   .a {
     width: 100%;
@@ -240,27 +246,57 @@
       width: 550px;
       height: 550px;
       left: 50%;
-      top: 35%; } }
-@media screen and (max-width: 800px) {
-  .a {
-    width: 100%;
-    height: 100%;
-    margin: -8px;
-    position: absolute; }
-    .a .b .text {
-      transform: translate(-50% -50%);
-      right: 0%;
-      top: 20%;
-      position: absolute;
-      font-size: 15px;
-      text-align: center; }
-    .a .b .image {
-      transform: translate(-50%);
-      position: absolute;
-      width: 400px;
-      height: 400px;
-      left: 50%;
-      top: 40%; } }
+      top: 35%; }
+
+  .info {
+    font-size: 23px; }
+    .info .language {
+      margin-top: 220px;
+      transform: translate(-50% -50%); }
+      .info .language h2 {
+        color: #EEEEEE;
+        display: flex;
+        margin-left: 10%;
+        margin-top: 70px; }
+        .info .language h2 .ar {
+          position: absolute;
+          width: 50%;
+          height: 10px;
+          background-color: #EEEEEE;
+          border-radius: 10px;
+          left: 35%;
+          top: 866px; }
+          .info .language h2 .ar div {
+            width: 85%;
+            height: 100%;
+            background-color: #ce834a;
+            border-radius: 10px; }
+        .info .language h2 .tr {
+          position: absolute;
+          width: 50%;
+          height: 10px;
+          background-color: #EEEEEE;
+          border-radius: 10px;
+          left: 35%;
+          top: 973px; }
+          .info .language h2 .tr div {
+            width: 80%;
+            height: 100%;
+            background-color: #ce834a;
+            border-radius: 10px; }
+        .info .language h2 .en {
+          position: absolute;
+          width: 50%;
+          height: 10px;
+          background-color: #EEEEEE;
+          border-radius: 10px;
+          left: 35%;
+          top: 1080px; }
+          .info .language h2 .en div {
+            width: 50%;
+            height: 100%;
+            background-color: #ce834a;
+            border-radius: 10px; } }
 @media screen and (max-width: 800px) {
   .a {
     width: 100%;
@@ -281,13 +317,7 @@
       height: 400px;
       left: 50%;
       top: 40%; } }
-@media screen and (min-width: 1001px) {
-  .text:hover {
-    transform: translateY(-10px); }
-
-  .image:hover {
-    transform: translateY(-10px); } }
-@media screen and (max-width: 734.9px) {
+@media screen and (max-width: 744.9px) {
   .a .b .text {
     font-size: large; }
   .a .b .image {
@@ -301,30 +331,35 @@
     margin-top: 20px; }
 
   .contactinfo {
-    margin-top: 900px;
-    transform: translate(-50% -50%); }
+    transform: translate(-50% -50%);
+    position: absolute;
+    bottom: 100px;
+    left: 10%; }
     .contactinfo h2 {
       color: #EEEEEE;
-      display: flex;
-      margin-left: 10%;
-      margin-top: -10px; }
+      display: flex; }
       .contactinfo h2 .item {
         margin-left: 30px;
         color: #ce834a; } }
-@media screen and (max-width: 590px) {
-  .git {
-    margin-left: 10%;
-    width: 100px;
-    margin-right: 20px; }
-
-  .github {
-    width: 100px;
-    margin-right: 20px;
-    margin-left: 0px;
-    margin-top: 20px; }
-
+@media screen and (max-width: 650px) {
   .info {
-    font-size: small; }
+    height: 3000px; }
+    .info .contactinfo {
+      transform: translate(-50% -50%);
+      position: absolute;
+      bottom: 0px;
+      left: 10%;
+      top: 2350px; }
+      .info .contactinfo h2 {
+        color: #EEEEEE;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 50px;
+        padding-bottom: 70px; }
+        .info .contactinfo h2 .item {
+          position: absolute;
+          left: 0%;
+          color: #ce834a; }
     .info .language {
       margin-top: 220px;
       transform: translate(-50% -50%); }
@@ -340,7 +375,7 @@
           background-color: #EEEEEE;
           border-radius: 10px;
           left: 35%;
-          top: 750px; }
+          top: 904px; }
           .info .language h2 .ar div {
             width: 85%;
             height: 100%;
@@ -353,7 +388,7 @@
           background-color: #EEEEEE;
           border-radius: 10px;
           left: 35%;
-          top: 842px; }
+          top: 1010px; }
           .info .language h2 .tr div {
             width: 80%;
             height: 100%;
@@ -366,11 +401,224 @@
           background-color: #EEEEEE;
           border-radius: 10px;
           left: 35%;
-          top: 934px; }
+          top: 1120px; }
           .info .language h2 .en div {
             width: 50%;
             height: 100%;
             background-color: #ce834a;
             border-radius: 10px; } }
+@media screen and (max-width: 650px) {
+  .info .language {
+    margin-top: 220px;
+    transform: translate(-50% -50%); }
+    .info .language h2 {
+      color: #EEEEEE;
+      display: flex;
+      margin-left: 10%;
+      margin-top: 70px; }
+      .info .language h2 .ar {
+        position: absolute;
+        width: 50%;
+        height: 10px;
+        background-color: #EEEEEE;
+        border-radius: 10px;
+        left: 40%;
+        top: 865px; }
+        .info .language h2 .ar div {
+          width: 85%;
+          height: 100%;
+          background-color: #ce834a;
+          border-radius: 10px; }
+      .info .language h2 .tr {
+        position: absolute;
+        width: 50%;
+        height: 10px;
+        background-color: #EEEEEE;
+        border-radius: 10px;
+        left: 40%;
+        top: 973px; }
+        .info .language h2 .tr div {
+          width: 80%;
+          height: 100%;
+          background-color: #ce834a;
+          border-radius: 10px; }
+      .info .language h2 .en {
+        position: absolute;
+        width: 50%;
+        height: 10px;
+        background-color: #EEEEEE;
+        border-radius: 10px;
+        left: 40%;
+        top: 1083px; }
+        .info .language h2 .en div {
+          width: 50%;
+          height: 100%;
+          background-color: #ce834a;
+          border-radius: 10px; } }
+@media screen and (max-width: 600px) {
+  .git {
+    margin-left: 10%;
+    width: 100px;
+    margin-right: 20px; }
+
+  .github {
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-top: 20px; }
+
+  .info {
+    font-size: 18px; }
+    .info .language {
+      margin-top: 220px;
+      transform: translate(-50% -50%); }
+      .info .language h2 {
+        color: #EEEEEE;
+        display: flex;
+        margin-left: 10%;
+        margin-top: 70px; }
+        .info .language h2 .ar {
+          position: absolute;
+          width: 50%;
+          height: 10px;
+          background-color: #EEEEEE;
+          border-radius: 10px;
+          left: 35%;
+          top: 806px; }
+          .info .language h2 .ar div {
+            width: 85%;
+            height: 100%;
+            background-color: #ce834a;
+            border-radius: 10px; }
+        .info .language h2 .tr {
+          position: absolute;
+          width: 50%;
+          height: 10px;
+          background-color: #EEEEEE;
+          border-radius: 10px;
+          left: 35%;
+          top: 907px; }
+          .info .language h2 .tr div {
+            width: 80%;
+            height: 100%;
+            background-color: #ce834a;
+            border-radius: 10px; }
+        .info .language h2 .en {
+          position: absolute;
+          width: 50%;
+          height: 10px;
+          background-color: #EEEEEE;
+          border-radius: 10px;
+          left: 35%;
+          top: 1009px; }
+          .info .language h2 .en div {
+            width: 50%;
+            height: 100%;
+            background-color: #ce834a;
+            border-radius: 10px; } }
+@media screen and (max-width: 500px) {
+  .info .language {
+    margin-top: 220px;
+    transform: translate(-50% -50%); }
+    .info .language h2 {
+      color: #EEEEEE;
+      display: flex;
+      margin-left: 10%;
+      margin-top: 70px; }
+      .info .language h2 .ar {
+        position: absolute;
+        width: 50%;
+        height: 10px;
+        background-color: #EEEEEE;
+        border-radius: 10px;
+        left: 40%;
+        top: 808px; }
+        .info .language h2 .ar div {
+          width: 85%;
+          height: 100%;
+          background-color: #ce834a;
+          border-radius: 10px; }
+      .info .language h2 .tr {
+        position: absolute;
+        width: 50%;
+        height: 10px;
+        background-color: #EEEEEE;
+        border-radius: 10px;
+        left: 40%;
+        top: 908px; }
+        .info .language h2 .tr div {
+          width: 80%;
+          height: 100%;
+          background-color: #ce834a;
+          border-radius: 10px; }
+      .info .language h2 .en {
+        position: absolute;
+        width: 50%;
+        height: 10px;
+        background-color: #EEEEEE;
+        border-radius: 10px;
+        left: 40%;
+        top: 1007px; }
+        .info .language h2 .en div {
+          width: 50%;
+          height: 100%;
+          background-color: #ce834a;
+          border-radius: 10px; } }
+@media screen and (max-width: 480px) {
+  #birth {
+    margin-bottom: 50px; }
+
+  #date {
+    position: absolute;
+    left: 3%;
+    top: 280px; }
+
+  .info .language {
+    margin-top: 220px;
+    transform: translate(-50% -50%); }
+    .info .language h2 {
+      color: #EEEEEE;
+      display: flex;
+      margin-left: 10%;
+      margin-top: 70px; }
+      .info .language h2 .ar {
+        position: absolute;
+        width: 50%;
+        height: 10px;
+        background-color: #EEEEEE;
+        border-radius: 10px;
+        left: 40%;
+        top: 835px; }
+        .info .language h2 .ar div {
+          width: 85%;
+          height: 100%;
+          background-color: #ce834a;
+          border-radius: 10px; }
+      .info .language h2 .tr {
+        position: absolute;
+        width: 50%;
+        height: 10px;
+        background-color: #EEEEEE;
+        border-radius: 10px;
+        left: 40%;
+        top: 934px; }
+        .info .language h2 .tr div {
+          width: 80%;
+          height: 100%;
+          background-color: #ce834a;
+          border-radius: 10px; }
+      .info .language h2 .en {
+        position: absolute;
+        width: 50%;
+        height: 10px;
+        background-color: #EEEEEE;
+        border-radius: 10px;
+        left: 40%;
+        top: 1037px; }
+        .info .language h2 .en div {
+          width: 50%;
+          height: 100%;
+          background-color: #ce834a;
+          border-radius: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
